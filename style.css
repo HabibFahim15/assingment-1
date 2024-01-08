@@ -369,7 +369,7 @@ body {
     line-height: 32px
 }
 
-   .last-button {
+.last-button {
     padding: 15px;
     background-color: #FF0000;
     border: none;
@@ -380,11 +380,62 @@ body {
     font-size: large;
     text-align: center;
 }
-.email-feild input{
+
+.email-feild input {
     border: 0px;
     padding: 15px 30px;
     color: white;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-bottom: 25px;
+}
+
+/* footer styles */
+.footer-container {
+    background: #070211;
+    
+}
+.foot-top-container{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.foot-right, .foot-right-second {
+    display: flex;
+    text-align: center;
+}
+
+.foot-right > img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.foot-right-second > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+
+.foot-right-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    
 }
