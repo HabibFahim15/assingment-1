@@ -316,3 +316,15 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
+/* porfolio related styles */
+.Portfolio-container{
+    border: 2px solid;
+    color: white;
+    margin: 5%;
+}
+.portfolio-section{
+    display: flex;
+}
+.portfolio {
+    margin: 5px;
+}
