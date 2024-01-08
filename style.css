@@ -273,9 +273,10 @@ body {
 }
 
 /* another blog section related style */
-.another-blog-section{
+.another-blog-section {
     text-align: center;
 }
+
 .third-title-blog {
     color: #070211;
 
@@ -316,15 +317,74 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
+
 /* porfolio related styles */
-.Portfolio-container{
+.Portfolio-container {
     border: 2px solid;
     color: white;
     margin: 5%;
 }
-.portfolio-section{
+
+.portfolio-section {
     display: flex;
 }
+
 .portfolio {
     margin: 5px;
+}
+
+/* last container related styles */
+.last-container {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 5%;
+
+
+}
+
+.last-container>img {
+    margin-top: 70px;
+}
+
+.last-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.last-blog {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px
+}
+
+   .last-button {
+    padding: 15px;
+    background-color: #FF0000;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 12px 30px;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.email-feild input{
+    border: 0px;
+    padding: 15px 30px;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 25px;
 }
