@@ -292,6 +292,34 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
+/* optional hard section */
+.hard-section{
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: #E4E2E3;
+    
+}
+.hard-img-1{
+    position: relative;
+    top: 200px;
+    height: 500px;
+    width: 500px;
+}
+.hard-img-2{
+    position: relative;
+    left: 387px;
+    top: 4px;
+}
+ .hard-img-3{
+    position: relative;
+    right: 190px;
+    bottom: 60px;
+} 
+.hard-img-4{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+}
 
 /* porfolio related styles */
 .Portfolio-container {
