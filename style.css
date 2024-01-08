@@ -1,4 +1,7 @@
 /* Other style */
+*{
+    margin: 0px;
+}
 body {
     font-family: 'Merriweather', serif;
 }
@@ -324,6 +327,11 @@ body {
     color: white;
     margin: 5%;
 }
+.portfolio > img{
+    height: 450px;
+    width: 424px;
+    transition: width 4s, height 4s;
+}
 
 .portfolio-section {
     display: flex;
@@ -331,6 +339,11 @@ body {
 
 .portfolio {
     margin: 5px;
+}
+.portfolio > img:hover{
+    height: 560px;
+    width: 560px; 
+    
 }
 
 /* last container related styles */
@@ -391,12 +404,16 @@ body {
 }
 
 /* footer styles */
-.footer-container {
-    background: #070211;
+.footer-main-container {
     
 }
-.foot-top-container{
-    padding: 120px;
+
+.footer-container {
+    background: #070211;
+}
+
+.foot-top-bottom-container {
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -404,30 +421,32 @@ body {
 .foot-address {
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
 }
 
-.foot-right, .foot-right-second {
+.foot-right,
+.foot-right-second {
     display: flex;
     text-align: center;
 }
 
-.foot-right > img {
+.foot-right>img {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-    margin-top: 34px;
-    margin-right: 10px;
+    margin-top: 8px;
+    margin-right: 4px;
 }
-.foot-right-second > img{
+
+.foot-right-second>img {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-    margin-top: 34px;
-    margin-right: 10px;
+    margin-top: 8px;
+    margin-right: 4px;
 }
 
 .foot-right-address {
@@ -437,5 +456,24 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    
+
+}
+
+/* footer middle style */
+.foot-middle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.foot-middle-img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+hr {
+    width: 90%;
+    margin-left: 5%;
 }
