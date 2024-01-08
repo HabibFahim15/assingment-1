@@ -208,7 +208,7 @@ body {
 }
 
 /* coming soon related style */
-.coming-soon-container{
+.coming-soon-container {
     border: 2px solid;
     color: white;
     padding: 10%;
@@ -216,6 +216,7 @@ body {
     display: flex;
     position: relative;
 }
+
 .coming {
     color: #F00;
     font-family: Merriweather;
@@ -269,4 +270,49 @@ body {
     width: 140px;
     height: 140px;
     flex-shrink: 0;
+}
+
+/* another blog section related style */
+.another-blog-section{
+    text-align: center;
+}
+.third-title-blog {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sales-off {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sales-style {
+    color: #F00;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sales-off-blog {
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
 }
