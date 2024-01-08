@@ -209,6 +209,10 @@ body {
 
 /* coming soon related style */
 .coming-soon-container{
+    border: 2px solid;
+    color: white;
+    padding: 10%;
+    margin-top: 25px;
     display: flex;
     position: relative;
 }
@@ -239,7 +243,9 @@ body {
     line-height: 32px;
 }
 
-.ellipse-img {}
+.ellipse-img {
+    margin-right: 50px;
+}
 
 .coming-year {
     color: #F00;
